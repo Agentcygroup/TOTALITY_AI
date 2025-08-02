@@ -1,0 +1,25 @@
+bash-3.2$ 
+bash-3.2$ # === 1. PURGE + PREP ===
+bash-3.2$ echo "🧹 WIPING legacy sessions, zombie locks, and ghost histories..." [A
+🧹 WIPING legacy sessions, zombie locks, and ghost histories...
+bash-3.2$ sudo rm -rf "$HOME_DIR/.zsh_sessions" "$HOME_DIR/.sessions" "$HOME_DIR /.history" \
+>   "$HOME_DIR/.bash_sessions" "$HOME_DIR/.python_history" "$HOME_DIR/.sqlite_hi story"
+bash-3.2$ cat <<EOF >> "$HOME/.zshrc"
+> 
+> # 🌌 TOTALITY AI RUNTIME ∞ PATCH
+> export HISTFILE="\$HOME/.sessions/zsh_history"
+> export HISTSIZE=10000
+> export SAVEHIST=10000
+> export LANG="en_US.UTF-8"
+> export LC_ALL="en_US.UTF-8"
+> export TOTALITY_AI_RUNTIME="online"
+> mkdir -p "\$HOME/.sessions" 2>/dev/null
+> touch "\$HOME/.sessions/\$(uuidgen).historynew" 2>/dev/null
+> EOF
+bash-3.2$ #!/bin/bash
+bash-3.2$ echo "⚡ Launching Neo4j Agent..."
+⚡ Launching Neo4j Agent...
+bash-3.2$ docker run -d --name neo4j -p 7474:7474 -p 7687:7687 \
+>   -e NEO4J_AUTH=neo4j/test \
+>   -v neo4j_data:/data \
+>   neo4j:5.18

@@ -1,0 +1,5 @@
+
+.eth: gerhardt.totality.eth
+.zkey: gerhardt_totality_pubkey.zkey
+.ai: gerhardt_ai_runtime_token
+
