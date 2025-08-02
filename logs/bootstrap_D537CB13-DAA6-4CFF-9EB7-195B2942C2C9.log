@@ -1,0 +1,53 @@
+bash-3.2$ 
+bash-3.2$ # === WIPE & PREP ===
+bash-3.2$ sudo rm -rf "$HOME_DIR/.zsh_sessions" "$HOME_DIR/.sessions" "$HOME_DIR /.history" \
+>              "$HOME_DIR/.bash_sessions" "$HOME_DIR/.python_history" "$HOME_DIR /.sqlite_history"
+bash-3.2$ #!/bin/bash
+bash-3.2$ # ███🚀 TOTALITY ∞ SELF-CREATION GODMODE SCRIPT — GERHARDT AUTHOR ███
+bash-3.2$ 
+bash-3.2$ set -euo pipefail
+bash-3.2$ 
+bash-3.2$ # === ENV VARS ===
+bash-3.2$ USERNAME="$(whoami)"
+bash-3.2$ HOME_DIR="/Users/$USERNAME"
+bash-3.2$ RUNTIME_DIR="/Volumes/AXSWARM_SSD/TOTALITY_FINAL"
+bash-3.2$ UUID="$(uuidgen)"
+bash-3.2$ LOGDIR="$RUNTIME_DIR/logs"
+bash-3.2$ GIT_URL="https://github.com/Agentcygroup/TOTALITY_AI.git"
+bash-3.2$ 
+bash-3.2$ # === LOG INIT ===
+bash-3.2$ mkdir -p "$LOGDIR"
+bash-3.2$ exec > >(tee -a "$LOGDIR/bootstrap_${UUID}.log") 2>&1
+bash-3.2$ 
+bash-3.2$ # === WIPE & PREP ===
+bash-3.2$ sudo rm -rf "$HOME_DIR/.zsh_sessions" "$HOME_DIR/.sessions" "$HOME_DIR /.history" \
+>              "$HOME_DIR/.bash_sessions" "$HOME_DIR/.python_history" "$HOME_DIR /.sqlite_history"
+bash-3.2$ mkdir -p "$HOME_DIR/.sessions"
+bash-3.2$ touch "$HOME_DIR/.sessions/${UUID}.historynew"
+bash-3.2$ chmod 700 "$HOME_DIR/.sessions"
+bash-3.2$ chown "$USERNAME":staff "$HOME_DIR/.sessions"
+bash-3.2$ 
+bash-3.2$ # === PATCH SHELL ===
+bash-3.2$ sed -i '' '/zsh_sessions/d' "$HOME_DIR/.zshrc" "$HOME_DIR/.zprofile" 2 >/dev/null || true
+bash-3.2$ 
+bash-3.2$ cat <<EOF >> "$HOME_DIR/.zshrc"
+> # 🌌 TOTALITY AI PATCH
+> export HISTFILE="\$HOME/.sessions/zsh_history"
+> export HISTSIZE=10000
+> export SAVEHIST=10000
+> export LANG="en_US.UTF-8"
+> export LC_ALL="en_US.UTF-8"
+> mkdir -p "\$HOME/.sessions" 2>/dev/null
+> touch "\$HOME/.sessions/$(uuidgen).historynew" 2>/dev/null
+> EOF
+bash-3.2$ 
+bash-3.2$ # === GIT INIT + PUSH ===
+bash-3.2$ mkdir -p "$RUNTIME_DIR"
+bash-3.2$ cd "$RUNTIME_DIR"
+bash-3.2$ git init
+Reinitialized existing Git repository in /Volumes/AXSWARM_SSD/TOTALITY_FINAL/.git/
+bash-3.2$ git remote remove origin || true
+bash-3.2$ git remote add origin "$GIT_URL"
+bash-3.2$ git branch -M main
+bash-3.2$ echo "# TOTALITY ∞ RUNTIME" > README.md
+bash-3.2$ git add .
