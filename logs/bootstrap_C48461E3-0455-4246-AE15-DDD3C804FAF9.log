@@ -191,3 +191,8 @@ fatal: repository 'https://github.com/GerhardtInstitute/TOTALITY_FINAL.git/' not
 ]7;file://Dannys-MacBook-Pro.local/Volumes/AXSWARM_SSD/TOTALITY_FINALFlag --confirm has been deprecated, Pass any argument to skip confirmation prompt
 HTTP 403: The 'GerhardtInstitute' organization forbids access via a fine-grained personal access tokens if the token's lifetime is greater than 366 days. Please adjust your token's lifetime at the following URL: https://github.com/settings/personal-access-tokens/7824856 (https://api.github.com/users/GerhardtInstitute)
 Reinitialized existing Git repository in /Volumes/AXSWARM_SSD/TOTALITY_FINAL/.git/
+[main eb7f8ac] 🚀 TOTALITY GODMODE DROP — Full Sync
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+remote: Repository not found.
+fatal: repository 'https://github.com/GerhardtInstitute/TOTALITY_FINAL.git/' not found
+]7;file://Dannys-MacBook-Pro.local/Volumes/AXSWARM_SSD/TOTALITY_FINALReinitialized existing Git repository in /Volumes/AXSWARM_SSD/TOTALITY_FINAL/.git/
