@@ -183,4 +183,11 @@ Successfully installed PyYAML-6.0.2 SQLAlchemy-2.0.42 annotated-types-0.7.0 anyi
 🤖 AI shell ready.
 📡 LangGraph Sentry starting...
 Unable to find image 'langgraph/langgraph:latest' locally
-]7;file://Dannys-MacBook-Pro.local/Volumes/AXSWARM_SSD/TOTALITY_FINAL
+]7;file://Dannys-MacBook-Pro.local/Volumes/AXSWARM_SSD/TOTALITY_FINAL[main 2408f84] 🔁 TOTALITY RUNTIME SYNC
+ 2 files changed, 10 insertions(+)
+remote: Repository not found.
+fatal: repository 'https://github.com/GerhardtInstitute/TOTALITY_FINAL.git/' not found
+]7;file://Dannys-MacBook-Pro.local/Volumes/AXSWARM_SSD/TOTALITY_FINALzsh: event not found: /bin/bash
+]7;file://Dannys-MacBook-Pro.local/Volumes/AXSWARM_SSD/TOTALITY_FINALFlag --confirm has been deprecated, Pass any argument to skip confirmation prompt
+HTTP 403: The 'GerhardtInstitute' organization forbids access via a fine-grained personal access tokens if the token's lifetime is greater than 366 days. Please adjust your token's lifetime at the following URL: https://github.com/settings/personal-access-tokens/7824856 (https://api.github.com/users/GerhardtInstitute)
+Reinitialized existing Git repository in /Volumes/AXSWARM_SSD/TOTALITY_FINAL/.git/
