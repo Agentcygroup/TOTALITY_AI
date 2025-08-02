@@ -1,0 +1,46 @@
+bash-3.2$ 
+bash-3.2$ # === PURGE + PREP ===
+bash-3.2$ echo "🧹 PURGING session + history artifacts..."
+🧹 PURGING session + history artifacts...
+bash-3.2$ rm -rf "$USER_HOME/.zsh_sessions" "$SESSION_DIR" "$USER_HOME/.bash_sessions" "$USER_HOME/.history" "$USER_HOME/.python_history" "$USER_HOME/.sqlite_his tory" 2>/dev/null || true
+bash-3.2$ mkdir -p "$SESSION_DIR"
+bash-3.2$ touch "$SESSION_DIR/${UUID}.historynew"
+bash-3.2$ chmod 700 "$SESSION_DIR"
+bash-3.2$ 
+bash-3.2$ # === PATCH .zshrc ===
+bash-3.2$ echo "🧠 PATCHING .zshrc..."
+🧠 PATCHING .zshrc...
+bash-3.2$ sed -i '' '/zsh_sessions/d' "$USER_HOME/.zshrc" "$USER_HOME/.zprofile" 2>/dev/null || true
+bash-3.2$ cat <<EOF >> "$USER_HOME/.zshrc"
+> 
+> # 🌌 TOTALITY AI PATCH
+> export HISTFILE="\$HOME/.sessions/zsh_history"
+> export HISTSIZE=10000
+> export SAVEHIST=10000
+> export LANG="en_US.UTF-8"
+> export LC_ALL="en_US.UTF-8"
+> export TOTALITY_AI_RUNTIME="online"
+> mkdir -p "\$HOME/.sessions" 2>/dev/null
+> touch "\$HOME/.sessions/\$(uuidgen).historynew" 2>/dev/null
+> EOF
+bash-3.2$ 
+bash-3.2$ # === CREATE RUNTIME ===
+bash-3.2$ echo "📁 CREATING RUNTIME DIRS..."
+📁 CREATING RUNTIME DIRS...
+bash-3.2$ mkdir -p "$RUNTIME/AI_MODELS" "$RUNTIME/agents" "$RUNTIME/mirrors"
+bash-3.2$ touch "$RUNTIME/.notarized_by_TOTALITY_$(date +%Y%m%d_%H%M%S)"
+bash-3.2$ 
+bash-3.2$ # === COPY MODELS IF EXIST ===
+bash-3.2$ echo "📥 COPYING SYMBOLIC EXPORTS..."
+📥 COPYING SYMBOLIC EXPORTS...
+bash-3.2$ cp -R "$USER_HOME/symbolic-agi-export/"* "$RUNTIME/AI_MODELS" 2>/dev/null || true
+bash-3.2$ 
+bash-3.2$ # === INIT GIT ===
+bash-3.2$ echo "🌐 INITIALIZING GIT + IPFS..."
+🌐 INITIALIZING GIT + IPFS...
+bash-3.2$ cd "$RUNTIME"
+bash-3.2$ git init
+Reinitialized existing Git repository in /Volumes/AXSWARM_SSD/TOTALITY_FINAL/.git/
+bash-3.2$ git remote add origin "$GIT_REMOTE" || true
+error: remote origin already exists.
+bash-3.2$ git add .

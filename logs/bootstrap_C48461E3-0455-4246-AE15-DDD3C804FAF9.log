@@ -16,3 +16,170 @@ hint: 	git branch -m <name>
 hint:
 hint: Disable this message with "git config set advice.defaultBranchName false"
 Initialized empty Git repository in /Volumes/AXSWARM_SSD/TOTALITY_FINAL/.git/
+[master (root-commit) 838f754] 🚀 TOTALITY INIT 2025-08-02_19:32:55
+ 21 files changed, 77 insertions(+)
+ create mode 100644 .notarized_by_TOTALITY_20250802_193254
+ create mode 100644 AI_MODELS/CID_LOG_TOTALITY.txt
+ create mode 100644 AI_MODELS/GERHARDT_TOTALITY.dmg
+ create mode 100644 AI_MODELS/GERHARDT_TOTALITY_PUBLIC_RELEASE_20250802.tar.gz
+ create mode 100644 AI_MODELS/GERHARDT_TOTALITY_PUBLIC_RELEASE_20250802_162638.tar.gz
+ create mode 100644 AI_MODELS/GERHARDT_TOTALITY_PUBLIC_RELEASE_20250802_x1000.tar.gz
+ create mode 100644 "AI_MODELS/GERHARDT_TOTALITY_\342\210\236_RELEASE_20250802.tar.gz"
+ create mode 100644 AI_MODELS/TOTALITY_CID.txt
+ create mode 100755 AI_MODELS/TOTALITY_GUI.app/Contents/MacOS/launch
+ create mode 100644 AI_MODELS/TOTALITY_GUI_20250802.dmg
+ create mode 100755 AI_MODELS/TOTALITY_LAUNCHER.app/Contents/MacOS/launch
+ create mode 100644 AI_MODELS/notarization_record.txt
+ create mode 100644 AI_MODELS/notarized.ai
+ create mode 100644 AI_MODELS/notarized.eth
+ create mode 100644 AI_MODELS/notarized.zkey
+ create mode 100644 AI_MODELS/observability.log
+ create mode 100755 agents/ai_terminal.sh
+ create mode 100755 agents/langgraph_sentry.sh
+ create mode 100755 agents/neo4j_ingest.sh
+ create mode 100644 logs/bootstrap_C48461E3-0455-4246-AE15-DDD3C804FAF9.log
+ create mode 100644 logs/bootstrap_EBDC97DF-694C-41F1-BE91-83887F2ACFDE.log
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/GerhardtInstitute/TOTALITY_FINAL.git'
+ 47 B / ? [--------------------=----------------------------------------------] [2K 47 B / 144.18 KiB [>--------------------------------------------------]   0.03% 18.90 KiB / 144.18 KiB [======>---------------------------------------]  13.11%[2K 18.90 KiB / 144.18 KiB [======>---------------------------------------]  13.11% 50.46 KiB / 144.18 KiB [================>-----------------------------]  35.00%[2K 50.46 KiB / 144.18 KiB [================>-----------------------------]  35.00% 74.74 KiB / 144.18 KiB [=======================>----------------------]  51.84%[2K 74.74 KiB / 144.18 KiB [=======================>----------------------]  51.84% 75.97 KiB / 144.18 KiB [========================>---------------------]  52.69%[2K 75.97 KiB / 144.18 KiB [========================>---------------------]  52.69% 80.30 KiB / 144.18 KiB [=========================>--------------------]  55.69%[2K 80.30 KiB / 144.18 KiB [=========================>--------------------]  55.69% 80.35 KiB / 144.18 KiB [=========================>--------------------]  55.73%[2K 80.35 KiB / 144.18 KiB [=========================>--------------------]  55.73% 80.40 KiB / 144.18 KiB [=========================>--------------------]  55.76%[2K 80.40 KiB / 144.18 KiB [=========================>--------------------]  55.76% 140.19 KiB / 144.18 KiB [===========================================>-]  97.23%[2K 140.19 KiB / 144.18 KiB [===========================================>-]  97.23% 140.23 KiB / 144.18 KiB [===========================================>-]  97.25%[2K 140.23 KiB / 144.18 KiB [===========================================>-]  97.25% 140.32 KiB / 144.18 KiB [===========================================>-]  97.32%[2K 140.32 KiB / 144.18 KiB [===========================================>-]  97.32% 140.34 KiB / 144.18 KiB [===========================================>-]  97.33%[2K 140.34 KiB / 144.18 KiB [===========================================>-]  97.33% 140.35 KiB / 144.18 KiB [===========================================>-]  97.34%[2K 140.35 KiB / 144.18 KiB [===========================================>-]  97.34% 140.35 KiB / 144.18 KiB [===========================================>-]  97.34%[2K 140.35 KiB / 144.18 KiB [===========================================>-]  97.34% 140.41 KiB / 144.18 KiB [===========================================>-]  97.38%[2K 140.41 KiB / 144.18 KiB [===========================================>-]  97.38% 140.60 KiB / 144.18 KiB [===========================================>-]  97.52%[2K 140.60 KiB / 144.18 KiB [===========================================>-]  97.52% 140.76 KiB / 144.18 KiB [===========================================>-]  97.63%[2K 140.76 KiB / 144.18 KiB [===========================================>-]  97.63% 140.93 KiB / 144.18 KiB [===========================================>-]  97.74%[2K 140.93 KiB / 144.18 KiB [===========================================>-]  97.74% 143.21 KiB / 144.18 KiB [=============================================]  99.32%[2K 143.21 KiB / 144.18 KiB [=============================================]  99.32% 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00% 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%[2K 144.18 KiB / 144.18 KiB [=============================================] 100.00%🚀 EXECUTING TOTALITY AI SHELL...
+usage: mkdir [-pv] [-m mode] directory_name ...
+]7;file://Dannys-MacBook-Pro.local/Volumes/AXSWARM_SSD/TOTALITY_FINALremote: Repository not found.
+fatal: repository 'https://github.com/GerhardtInstitute/TOTALITY_FINAL.git/' not found
+]7;file://Dannys-MacBook-Pro.local/Volumes/AXSWARM_SSD/TOTALITY_FINALusage: mkdir [-pv] [-m mode] directory_name ...
+/Users/agentcy_group_miami/.zshrc: line 74: autoload: command not found
+/Users/agentcy_group_miami/.zshrc: line 75: compinit: command not found
+🔁 Launching TOTALITY ∞...
+⚡ Launching Neo4j Agent...
+🧠 Initializing AI Terminal...
+Requirement already satisfied: pip in ./.venv/lib/python3.13/site-packages (25.1.1)
+Collecting pip
+  Using cached pip-25.2-py3-none-any.whl.metadata (4.7 kB)
+Using cached pip-25.2-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.1.1
+    Uninstalling pip-25.1.1:
+      Successfully uninstalled pip-25.1.1
+Successfully installed pip-25.2
+Collecting langchain
+  Using cached langchain-0.3.27-py3-none-any.whl.metadata (7.8 kB)
+Collecting openai
+  Using cached openai-1.98.0-py3-none-any.whl.metadata (29 kB)
+Collecting neo4j
+  Downloading neo4j-5.28.2-py3-none-any.whl.metadata (5.9 kB)
+Collecting nats-py
+  Downloading nats_py-2.11.0.tar.gz (114 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting langchain-core<1.0.0,>=0.3.72 (from langchain)
+  Using cached langchain_core-0.3.72-py3-none-any.whl.metadata (5.8 kB)
+Collecting langchain-text-splitters<1.0.0,>=0.3.9 (from langchain)
+  Using cached langchain_text_splitters-0.3.9-py3-none-any.whl.metadata (1.9 kB)
+Collecting langsmith>=0.1.17 (from langchain)
+  Using cached langsmith-0.4.10-py3-none-any.whl.metadata (14 kB)
+Collecting pydantic<3.0.0,>=2.7.4 (from langchain)
+  Using cached pydantic-2.11.7-py3-none-any.whl.metadata (67 kB)
+Collecting SQLAlchemy<3,>=1.4 (from langchain)
+  Using cached sqlalchemy-2.0.42-cp313-cp313-macosx_11_0_arm64.whl.metadata (9.6 kB)
+Collecting requests<3,>=2 (from langchain)
+  Using cached requests-2.32.4-py3-none-any.whl.metadata (4.9 kB)
+Collecting PyYAML>=5.3 (from langchain)
+  Using cached PyYAML-6.0.2-cp313-cp313-macosx_11_0_arm64.whl.metadata (2.1 kB)
+Collecting tenacity!=8.4.0,<10.0.0,>=8.1.0 (from langchain-core<1.0.0,>=0.3.72->langchain)
+  Using cached tenacity-9.1.2-py3-none-any.whl.metadata (1.2 kB)
+Collecting jsonpatch<2.0,>=1.33 (from langchain-core<1.0.0,>=0.3.72->langchain)
+  Using cached jsonpatch-1.33-py2.py3-none-any.whl.metadata (3.0 kB)
+Collecting typing-extensions>=4.7 (from langchain-core<1.0.0,>=0.3.72->langchain)
+  Using cached typing_extensions-4.14.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting packaging>=23.2 (from langchain-core<1.0.0,>=0.3.72->langchain)
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting jsonpointer>=1.9 (from jsonpatch<2.0,>=1.33->langchain-core<1.0.0,>=0.3.72->langchain)
+  Using cached jsonpointer-3.0.0-py2.py3-none-any.whl.metadata (2.3 kB)
+Collecting annotated-types>=0.6.0 (from pydantic<3.0.0,>=2.7.4->langchain)
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.33.2 (from pydantic<3.0.0,>=2.7.4->langchain)
+  Using cached pydantic_core-2.33.2-cp313-cp313-macosx_11_0_arm64.whl.metadata (6.8 kB)
+Collecting typing-inspection>=0.4.0 (from pydantic<3.0.0,>=2.7.4->langchain)
+  Using cached typing_inspection-0.4.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting charset_normalizer<4,>=2 (from requests<3,>=2->langchain)
+  Using cached charset_normalizer-3.4.2-cp313-cp313-macosx_10_13_universal2.whl.metadata (35 kB)
+Collecting idna<4,>=2.5 (from requests<3,>=2->langchain)
+  Using cached idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests<3,>=2->langchain)
+  Using cached urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests<3,>=2->langchain)
+  Using cached certifi-2025.7.14-py3-none-any.whl.metadata (2.4 kB)
+Collecting anyio<5,>=3.5.0 (from openai)
+  Using cached anyio-4.9.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting distro<2,>=1.7.0 (from openai)
+  Using cached distro-1.9.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting httpx<1,>=0.23.0 (from openai)
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting jiter<1,>=0.4.0 (from openai)
+  Using cached jiter-0.10.0-cp313-cp313-macosx_11_0_arm64.whl.metadata (5.2 kB)
+Collecting sniffio (from openai)
+  Using cached sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting tqdm>4 (from openai)
+  Using cached tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Collecting httpcore==1.* (from httpx<1,>=0.23.0->openai)
+  Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting h11>=0.16 (from httpcore==1.*->httpx<1,>=0.23.0->openai)
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting pytz (from neo4j)
+  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting orjson>=3.9.14 (from langsmith>=0.1.17->langchain)
+  Using cached orjson-3.11.1-cp313-cp313-macosx_15_0_arm64.whl.metadata (42 kB)
+Collecting requests-toolbelt>=1.0.0 (from langsmith>=0.1.17->langchain)
+  Using cached requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+Collecting zstandard>=0.23.0 (from langsmith>=0.1.17->langchain)
+  Using cached zstandard-0.23.0-cp313-cp313-macosx_11_0_arm64.whl.metadata (3.0 kB)
+Using cached langchain-0.3.27-py3-none-any.whl (1.0 MB)
+Using cached langchain_core-0.3.72-py3-none-any.whl (442 kB)
+Using cached jsonpatch-1.33-py2.py3-none-any.whl (12 kB)
+Using cached langchain_text_splitters-0.3.9-py3-none-any.whl (33 kB)
+Using cached pydantic-2.11.7-py3-none-any.whl (444 kB)
+Using cached pydantic_core-2.33.2-cp313-cp313-macosx_11_0_arm64.whl (1.8 MB)
+Using cached requests-2.32.4-py3-none-any.whl (64 kB)
+Using cached charset_normalizer-3.4.2-cp313-cp313-macosx_10_13_universal2.whl (199 kB)
+Using cached idna-3.10-py3-none-any.whl (70 kB)
+Using cached sqlalchemy-2.0.42-cp313-cp313-macosx_11_0_arm64.whl (2.1 MB)
+Using cached tenacity-9.1.2-py3-none-any.whl (28 kB)
+Using cached urllib3-2.5.0-py3-none-any.whl (129 kB)
+Using cached openai-1.98.0-py3-none-any.whl (767 kB)
+Using cached anyio-4.9.0-py3-none-any.whl (100 kB)
+Using cached distro-1.9.0-py3-none-any.whl (20 kB)
+Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Using cached httpcore-1.0.9-py3-none-any.whl (78 kB)
+Using cached jiter-0.10.0-cp313-cp313-macosx_11_0_arm64.whl (318 kB)
+Using cached typing_extensions-4.14.1-py3-none-any.whl (43 kB)
+Downloading neo4j-5.28.2-py3-none-any.whl (313 kB)
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Using cached certifi-2025.7.14-py3-none-any.whl (162 kB)
+Using cached h11-0.16.0-py3-none-any.whl (37 kB)
+Using cached jsonpointer-3.0.0-py2.py3-none-any.whl (7.6 kB)
+Using cached langsmith-0.4.10-py3-none-any.whl (372 kB)
+Using cached orjson-3.11.1-cp313-cp313-macosx_15_0_arm64.whl (129 kB)
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Using cached PyYAML-6.0.2-cp313-cp313-macosx_11_0_arm64.whl (171 kB)
+Using cached requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)
+Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Using cached typing_inspection-0.4.1-py3-none-any.whl (14 kB)
+Using cached zstandard-0.23.0-cp313-cp313-macosx_11_0_arm64.whl (633 kB)
+Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Building wheels for collected packages: nats-py
+  Building wheel for nats-py (pyproject.toml): started
+  Building wheel for nats-py (pyproject.toml): finished with status 'done'
+  Created wheel for nats-py: filename=nats_py-2.11.0-py3-none-any.whl size=83843 sha256=eb5ed725e04ed4cd66d9d2149a985e6183010d3843b925f1003dd85e7f6adba6
+  Stored in directory: /Users/agentcy_group_miami/Library/Caches/pip/wheels/20/29/4a/f3d0ec866e6ecfb7118d47210cc4d2284e0c8474d919f34e8e
+Successfully built nats-py
+Installing collected packages: pytz, zstandard, urllib3, typing-extensions, tqdm, tenacity, sniffio, PyYAML, packaging, orjson, neo4j, nats-py, jsonpointer, jiter, idna, h11, distro, charset_normalizer, certifi, annotated-types, typing-inspection, SQLAlchemy, requests, pydantic-core, jsonpatch, httpcore, anyio, requests-toolbelt, pydantic, httpx, openai, langsmith, langchain-core, langchain-text-splitters, langchain
+
+Successfully installed PyYAML-6.0.2 SQLAlchemy-2.0.42 annotated-types-0.7.0 anyio-4.9.0 certifi-2025.7.14 charset_normalizer-3.4.2 distro-1.9.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.10 jiter-0.10.0 jsonpatch-1.33 jsonpointer-3.0.0 langchain-0.3.27 langchain-core-0.3.72 langchain-text-splitters-0.3.9 langsmith-0.4.10 nats-py-2.11.0 neo4j-5.28.2 openai-1.98.0 orjson-3.11.1 packaging-25.0 pydantic-2.11.7 pydantic-core-2.33.2 pytz-2025.2 requests-2.32.4 requests-toolbelt-1.0.0 sniffio-1.3.1 tenacity-9.1.2 tqdm-4.67.1 typing-extensions-4.14.1 typing-inspection-0.4.1 urllib3-2.5.0 zstandard-0.23.0
+🤖 AI shell ready.
+📡 LangGraph Sentry starting...
+Unable to find image 'langgraph/langgraph:latest' locally
