@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.log
+*.env
+*.key
+.envrc
+.DS_Store
+node_modules/
+*.swp
+*.bak
+tokens/
+resurrect/
+zkeys/
