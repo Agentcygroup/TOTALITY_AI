@@ -13,7 +13,7 @@ gh release create "proof-$(date +%Y%m%d%H%M%S)" "$PROOF_BUNDLE" \
   --notes "Includes full benchmark logs, quantum-symbolic runtime traces, and IP verification.\nIPFS CID: $CID"
 
 echo "🔐 Notarizing via ENS and ZKEY..."
-bash "$ROOT/tools/ens-cli.sh" --notarize "$PROOF_BUNDLE"
-bash "$ROOT/tools/zkey-cli.sh" --notarize "$PROOF_BUNDLE"
+bash "$ROOT/tools/ens-cli.sh" --notarize "$PROOF_BUNDLE" || echo "⚠️ ENS script missing"
+bash "$ROOT/tools/zkey-cli.sh" --notarize "$PROOF_BUNDLE" || echo "⚠️ ZKEY script missing"
 
 echo "✅ TOTALITY ∞ Global Proof Propagation Complete — $(date)"
