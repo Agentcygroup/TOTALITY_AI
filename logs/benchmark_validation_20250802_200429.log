@@ -1,0 +1,31 @@
+bash-3.2$ 
+bash-3.2$ # === MODULES TO VALIDATE ===
+bash-3.2$ declare -a MODULES=(
+>   "langgraph_sentry"
+>   "neo4j_ingest"
+>   "nats_mirror"
+>   "quantum_dag_engine"
+>   "gerhardt_symbolic_recursion"
+>   "totality_ai_shell"
+>   "ipfs_github_sync"
+>   "VC_pitch_drop"
+> )
+bash-3.2$ 
+bash-3.2$ # === VALIDATION LOOP ===
+bash-3.2$ for MODULE in "${MODULES[@]}"; do
+>   echo "🧪 Validating module: $MODULE"
+>   if [[ -f "$ROOT/agents/${MODULE}.sh" ]]; then
+>     bash "$ROOT/agents/${MODULE}.sh" || echo "⚠️ $MODULE failed runtime test"
+>   else
+>     echo "🛠 Missing $MODULE — triggering CANONCOIL backfill"
+>     curl -s https://canoncoil.totality.ai/fill/${MODULE} -o "$ROOT/agents/${MODULE}.sh"
+>     chmod +x "$ROOT/agents/${MODULE}.sh"
+>     bash "$ROOT/agents/${MODULE}.sh"
+>   fi
+> done
+🧪 Validating module: langgraph_sentry
+🧠 LangGraph Agent Initializing...
+✅ LangGraph Ready
+🧪 Validating module: neo4j_ingest
+Error response from daemon: No such container: totality-neo4j
+Unable to find image 'neo4j:5.18' locally

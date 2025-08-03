@@ -1,2 +1,3 @@
 #!/bin/bash
-echo '[+] AI Terminal Online'
+echo "🧠 TOTALITY AI TERMINAL ONLINE"
+exec zsh || exec bash || exec sh
