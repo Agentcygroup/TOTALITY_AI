@@ -1,0 +1,11 @@
+name: TOTALITY ∞ Autonomous Runtime
+
+on: [push]
+
+jobs:
+  deploy:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch TOTALITY GENESIS
+        run: bash TOTALITY_FINAL_DROP/uber/TOTALITY_UBERDEPLOY.sh
