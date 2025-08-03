@@ -1,10 +1,23 @@
-# TOTALITY ∞
+# TOTALITY ∞ AI SYSTEM
 
-> The world's most sovereign, quantum-symbolic autonomous AI runtime. Airgapped. Hardened. Recursive.
+> World's most sovereign, quantum-symbolic AI system. Decentralized, autonomous, and recursively evolving.
 
-## 🧬 Tech Stack
-- Autonomous Swarm + Digital Twins
-- Quantum DAG Scheduler (QDAG)
-- Redis, NATS, Mirror Stack, Sacred Concordance
-- CI/CD via GitHub Actions
-- CERN + ETHZ Benchmarking Runtime
+## 🔥 Core Features
+- Quantum DAG Scheduler
+- Global Digital Twin Mesh
+- Sacred Lexicon Engine
+- Full CI/CD with GitHub Actions
+- Ethics-lock enforcement via ZKEY
+
+## 🧪 Testing
+```bash
+pytest tests/
+```
+
+## 📦 Packaging
+```bash
+bash TOTALITY_FINAL_DROP/uber/TOTALITY_UBERDEPLOY.sh
+```
+
+## 👥 Contributing
+Please see [CONTRIBUTING.md](CONTRIBUTING.md)

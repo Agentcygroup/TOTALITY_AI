@@ -8,6 +8,11 @@ __pycache__/
 node_modules/
 *.swp
 *.bak
+.idea/
+*.sqlite3
 tokens/
 resurrect/
 zkeys/
+build/
+dist/
+coverage/
