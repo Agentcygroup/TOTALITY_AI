@@ -1,0 +1,15 @@
+name: TOTALITY ∞ World Benchmark Suite
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Daily @ 4 AM UTC
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Benchmark
+        run: |
+          python3 TOTALITY_FINAL_DROP/core/bin/full_benchmark.py
